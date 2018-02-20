@@ -2,6 +2,8 @@
 
 The tagentry plugin displays a set of tag-name checkboxes just below the edit form (in the page edit mode) and automatically adds or modifies **{{tag>...}}** in the wiki-text using JavaScript when a checkbox is activated. 
 
+__Remark :__ [Dokuwiki tag plugin](https://www.dokuwiki.org/plugin:tag) must be installed before this plugin can work.
+
 ## Installation
 
 See documentation for how to [install the plugin manually](https://www.dokuwiki.org/plugin_installation_instructions#manual_instructions).
@@ -26,5 +28,6 @@ Download and install the plugin using the [Plugin Manager](https://www.dokuwiki.
 * [Dokuwiki plugin page](https://www.dokuwiki.org/plugin:tagentry)
 * [All Releases](https://github.com/sphaira-dev/dokuwiki-tagentry/releases)
 * [Bugs list](https://www.dokuwiki.org/plugin:tagentry#bugs)
+* [Dokuwiki tag plugin](https://www.dokuwiki.org/plugin:tag)
 
 
