@@ -5,9 +5,8 @@ The [tagentry](https://www.dokuwiki.org/plugin:tagentry) plugin displays a set o
 
 ## Installation
 
-See documentation for how to [install the plugin manually](https://www.dokuwiki.org/plugin_installation_instructions#manual_instructions).
-
-Download and install the plugin using the [Plugin Manager](https://www.dokuwiki.org/plugin:plugin) using the URL of release above. 
+* [Plugin Manager](https://www.dokuwiki.org/plugin:plugin) : Automatic download and install from the [plugin manager]((https://www.dokuwiki.org/plugin:plugin)) using the URL of release above.
+* [Manually](https://www.dokuwiki.org/plugin_installation_instructions#manual_instructions) : See documentation for how to [install the plugin manually](https://www.dokuwiki.org/plugin_installation_instructions#manual_instructions).
 
 __Remark :__ [Dokuwiki tag plugin](https://www.dokuwiki.org/plugin:tag) must be installed before this plugin can work.
 
