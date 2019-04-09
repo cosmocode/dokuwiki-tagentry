@@ -23,24 +23,11 @@ require_once( DOKU_PLUGIN . 'action.php' );
 // +-----------------------------------------------------------------------------
 
 class action_plugin_tagentry extends DokuWiki_Action_Plugin {
-    /**
-     * return some info
-     */
-    function getInfo() {
-        return array(
-            'author' => 'John Martin',
-            'email' => 'sphairadev@null.net',
-            'date' => '2017-07-20',
-            'name' => 'Tagentry Plugin',
-            'desc' => 'Assign tags using checkboxes in edit mode',
-            'url' => 'https://www.dokuwiki.org/plugin:tagentry'
-        );
-    }
 
     /**
      * register the eventhandlers
      */
-    function register( &$controller ) {
+    function register( Doku_Event_Handler $controller ) {
 
         // hook
         $controller->register_hook(
@@ -53,7 +40,7 @@ class action_plugin_tagentry extends DokuWiki_Action_Plugin {
     /**
      * Create the additional fields for the edit form.
      */
-    function handle_editform_output( &$event, $param ) {
+    function handle_editform_output( Doku_Event $event, $param ) {
 
         $pos = $event->data->findElementByAttribute( 'type', 'submit' );
         if ( !$pos ){ return; }
